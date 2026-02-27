@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="150"
+  height="150"
+  viewBox="0 0 150 150"
+>
+
+  <!-- Outer dashed circle -->
+  <circle
+    cx="75"
+    cy="75"
+    r="74"
+    fill="none"
+    stroke="#6b7280"
+    stroke-width="0.5"
+    stroke-dasharray="1 1"
+  />
+
+  <!-- Inner dashed circle -->
+  <circle
+    cx="75"
+    cy="75"
+    r="54"
+    fill="none"
+    stroke="#6b7280"
+    stroke-width="0.5"
+    stroke-dasharray="0.96 0.96"
+  />
+
+  <!-- Center background circle -->
+  <circle
+    cx="75"
+    cy="75"
+    r="17.5"
+    fill="#ffffff"
+    fill-opacity="0.85"
+  />
+
+  <!-- Curved text path -->
+  <defs>
+    <path
+      id="soc-text-path"
+      d="M 75 75
+         m -31.5 0
+         a 31.5 31.5 0 1 1 63 0
+         a 31.5 31.5 0 1 1 -63 0"
+    />
+  </defs>
+
+  <!-- Curved text -->
+  <g transform="rotate(-20 75 75)">
+    <text
+      font-size="4"
+      fill="#6b7280"
+      letter-spacing="0.5"
+      font-family="Arial, Helvetica, sans-serif"
+      font-weight="500"
+    >
+      <textPath href="#soc-text-path" startOffset="0%">
+        SOC FOR SERVICE ORGANIZATIONS | SERVICE ORGANIZATION
+      </textPath>
+    </text>
+  </g>
+
+  <!-- Center text -->
+  <text
+    x="75"
+    y="68"
+    text-anchor="middle"
+    font-size="7.5"
+    font-weight="600"
+    fill="#6b7280"
+    font-family="Arial, Helvetica, sans-serif"
+  >
+    AICPA
+  </text>
+
+  <!-- Divider line -->
+  <line
+    x1="35"
+    y1="75"
+    x2="115"
+    y2="75"
+    stroke="#6b7280"
+    stroke-width="0.5"
+    stroke-dasharray="0.64 0.64"
+  />
+
+  <!-- Bottom text -->
+  <text
+    x="75"
+    y="83"
+    text-anchor="middle"
+    font-size="7.5"
+    font-weight="600"
+    fill="#6b7280"
+    font-family="Arial, Helvetica, sans-serif"
+  >
+    SOC II
+  </text>
+
+</svg>
