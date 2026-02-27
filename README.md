@@ -56,3 +56,13 @@ All colors are defined using CSS variables for consistency.
 - Images and icons are similar to the original Mintlify website.
 - The navigation bar does not change style on scroll, as this behavior requires JavaScript, which was not allowed for this assignment.
 # MintlifyUI
+#NavBar
+<img width="1907" height="89" alt="image" src="https://github.com/user-attachments/assets/ca16c74e-09b8-4319-a991-5aed61ed9cce" />
+#HeroSection
+<img width="1905" height="833" alt="image" src="https://github.com/user-attachments/assets/3d750f19-67eb-40b9-aacb-020af2a29853" />
+<img width="1894" height="830" alt="image" src="https://github.com/user-attachments/assets/3cbfcc6a-35bc-43b5-b8d3-c2448146537e" />
+#FeatureSection
+<img width="1909" height="412" alt="image" src="https://github.com/user-attachments/assets/5473111c-55ad-4092-8060-762ea48df194" />
+#footer
+<img width="1311" height="785" alt="image" src="https://github.com/user-attachments/assets/917a0c0b-a386-44ad-8899-15156afd74a2" />
+
